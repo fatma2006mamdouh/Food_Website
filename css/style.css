@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family: sans-serif;
+    height: 4400px;
+}
+.container1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/hero-bg.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: center center;
+    position: relative;
+
+}
+header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h2{
+    font-family: "Playwrite IS", serif;
+}
+.list{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list li{
+    text-transform: uppercase;
+}
+.list li:hover{
+    color: #f1be24;
+    cursor: pointer;
+}
+.icon{
+    width:190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon i:hover{
+    color: #f1c338;
+
+}
+.btn{
+    width: 110px;
+    background-color:#f1c338;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px  16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#f1be24;
+    transform: scale(1.04)
+}
+.container1-content{
+   
+    position: absolute;
+    top: 30%;
+    left: 10%;
+   
+}
+.container1-content h2{
+    font-family: "Playwrite IS", serif;
+    padding: 15px 0px;
+}
+.container1-content p{
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+/* ********************************************************************* */
+.container-second{
+    width: 100%
+}
+.container-second h2{
+    text-align: center;
+    color: #1d2228;
+    padding: 19px;
+    font-family: "Playwrite IS", serif;
+}
+
+.container-second .list2{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-around;
+}
+.list2 li{
+    color: #1d2228;
+    cursor: pointer;
+}
+.all{
+    background-color: #1d2228;
+    
+    border-radius: 12px;
+    width: 76px;
+    padding: 3px 13px ;
+    text-align: center;
+}
+.all li{
+    color: white;
+}
+.container2{
+    width: 85%;
+    height: 77vh;
+    display: flex;
+    justify-content: space-around;
+    
+   margin: auto;
+   
+}
+.container2-parent-item{
+    width: 30%;
+    height:79%;
+  
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-color: #1d2228;
+}
+.container2 .container2-item{
+    width: 100%;
+    height: 47%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #f6f6f6;
+border-bottom-left-radius:30px;
+    
+}
+.container2 .container2-item img{
+    width: 70%;
+    height: 70%;
+   
+}
+.container2-content{
+    padding: 15px;
+    line-height: 21px;
+    
+}
+.container2-content h3{
+padding: 10px 0px;
+}
+.container2-icon{
+    padding:0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.ifood{
+    color: white;
+    background-color: #ffb300;
+    padding:  9px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ifood:hover{
+    background-color: #f6f6f6;
+    transform: scale(1.04);
+    border:2px solid #f1be24;
+    color: #cc9004;
+}
+.container2-item{
+    overflow: hidden;
+}
+.container2-item img:hover{
+    transform: scale(1.4);
+    transition: 1s;
+    cursor: pointer;
+}
+.button{
+    width: 200px;
+    margin: auto;
+}
+.btn22{
+    width: 200px;
+}
+/* ///////////////////////////////////////////////////////////////// */
+.container3{
+    width: 100%;
+    height: 70vh;
+    background-color: #1d2228;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.container3-image{
+    width: 40%;
+    height: 90%;
+
+}
+.container3-image img{
+    width: 100%;
+    height: 100%;
+}
+.container3-content{
+    width: 40%;
+    height: 70%;
+
+}
+.container3-content h2{
+    font-family: "Playwrite IS", serif;
+    padding: 15px;
+}
+.container3-content p{
+    padding: 15px;
+    padding-top: 0px;
+}
+.button2{
+    padding-top: 0px;
+    padding: 15px  20px;
+    border-radius: 14px;
+}
+.all:hover{
+    background-color: #f6f6f6;
+   border:2px solid #1d2228;
+    transform: scale(1.04);
+}
+.all:hover li{
+    color: #1d2228;
+}
+/* //////////////////////////////////////////////////////////////// */
+.container-4{
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+    background-color: #f7e5ed;
+}
+.container-8-parent1-p1{
+    color: #1d2228;
+    text-align: center;
+}
+.iheart2{
+    color: #e84393;
+
+}
+.container-8-parent1-p1 b{
+    color: #e84393;
+}
+.content-parent-pill{
+    margin-top: 30px;
+    width: 100%;
+    
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.pill-child{
+    width: 40%;
+    margin-top: 50px;
+}
+#pill,#total{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #e84393;
+}
+h3:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+#pill h2,#total h2{
+    font-family: "Playwrite IS", serif;
+    color: #1d2228;
+    text-align: center;
+}
+#pill{
+   
+}
+#pill:hover , #total:hover{
+    background-color: #e84393;
+    box-shadow: 1px 1px 20px #f7e5ed;
+}
+#pill:hover h2 ,#total:hover h2{
+    color:#f6f6f6;
+}
+
+.btn3{
+    margin-top: 15px;
+    width: 200px;
+    background-color:#e84393;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px  16px;
+    cursor: pointer;
+  
+}
+.btn3:hover{
+    border: 2px solid #e84393;
+    background-color:#f7e5ed;
+    transform: scale(1.04);
+
+   color: #1d2228;
+}
+/* //////////////////////////////////// */
+.li{
+    position: relative;
+    display: inline-block;
+    padding:4px;
+}
+
+/* //////////////////////////////الجزء اللى كان واقف قدامى //////////////////////////////////////////// */
+
+.li li::before,
+.li li::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #cc9004;
+    transition: all 0.5s;
+}
+
+/* الخط العلوي */
+.li li::before {
+    top: 0;
+    left: 0;
+}
+
+/* الخط السفلي */
+.li li::after {
+    bottom: 0;
+    right: 0;
+}
+
+/* عند تمرير الماوس، تمتد الحدود الأفقية */
+.li:hover li::before,
+.li:hover li::after {
+    width: 100%;
+}
+
+/* استخدام span لإنشاء الخطين الجانبيين */
+.li li span::before,
+.li li span::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0;
+    background-color: #cc9004;
+    transition: all 0.5s;
+    border-radius: 2px;
+}
+
+/* الخط الأيسر */
+.li li span::before {
+    left: 0;
+    bottom: 0;
+}
+
+/* الخط الأيمن */
+.li li span::after {
+    right: 0;
+    top: 0;
+}
+
+/* عند تمرير الماوس، تمتد الحدود الرأسية */
+.li:hover li span::before,
+.li:hover li span::after {
+    height: 100%;
+}
+
+
+.li::before {
+    width: 0;
+    height: 2px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.li:hover::before {
+    width: 100%;
+}
+
+/* الخط الأيمن والأيسر */
+.li::after {
+    width: 2px;
+    height: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.li:hover::after {
+    height: 100%;
+}
+#total{
+    text-align: center;
+}
